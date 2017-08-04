@@ -1,18 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { ReposComponent } from './repos.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+    ReposComponent,
   ],
   imports: [
     BrowserModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ReposComponent]
 })
-export class AppModule { }
+export class ReposModule { }

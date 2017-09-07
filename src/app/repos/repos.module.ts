@@ -1,9 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpModule } from '@angular/http';
 import { ReposComponent } from './repos.component';
-
-
 
 @NgModule({
   declarations: [
@@ -11,8 +9,11 @@ import { ReposComponent } from './repos.component';
   ],
   imports: [
     BrowserModule,
+    HttpModule
   ],
   providers: [],
-  bootstrap: [ReposComponent]
+  bootstrap: [],
+  exports: [ReposComponent]
 })
+
 export class ReposModule { }
